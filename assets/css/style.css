@@ -11,6 +11,7 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.849);
+    text-align: center;
 }
 
 img {
@@ -18,8 +19,26 @@ img {
     display: block;
 }
 
+button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 25px auto;
+    cursor: pointer;
+    background-color: rgb(77, 112, 124);
+    color: whitesmoke;
+}
+
+button:hover {
+    opacity: .9;
+}
 .mask-container {
     position: relative;
+    width: 80%;
+    margin: 30px auto 0;
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .color-image {
